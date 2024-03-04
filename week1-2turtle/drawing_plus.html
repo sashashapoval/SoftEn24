@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>basic_drawing</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>drawing_plus</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14594,310 +14594,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="My-first-drawing">My first drawing<a class="anchor-link" href="#My-first-drawing">&#182;</a></h2><p>Drawing with turtle: <a href="https://docs.python.org/2/library/turtle.html#">Manual</a></p>
-<h3 id="Starting-and-Ending">Starting and Ending<a class="anchor-link" href="#Starting-and-Ending">&#182;</a></h3><div class="highlight"><pre><span></span><span class="c1">#beginning</span>
-<span class="kn">import</span> <span class="nn">turtle</span> <span class="c1">#importing library</span>
-<span class="n">t</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">Pen</span><span class="p">()</span> <span class="c1">#creating a new pen (called turtle in this jargon)</span>
-</pre></div>
-<ul>
-<li>a new window with drawing appears</li>
-<li>let's draw something<div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
-</pre></div>
-</li>
-<li>the window is inactive now</li>
-<li>you can reset it with<div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
-</pre></div>
-</li>
-<li>typed in a separate window</li>
-<li>It is also possible to to type in a separate window<div class="highlight"><pre><span></span><span class="n">turtle</span><span class="o">.</span><span class="n">bye</span><span class="p">()</span>
-</pre></div>
-the window with drawing disappears, but you may experience an error message when you run the code for the next time. But the second run is expected to be successful.</li>
-<li>In contrast, it is possible to type<div class="highlight"><pre><span></span><span class="n">turtle</span><span class="o">.</span><span class="n">mainloop</span><span class="p">()</span>
-</pre></div>
-in the last line of the code. Then the window with drawing is clickable. In particular, one may close it clicking the red cross in the upper right window corner.</li>
-</ul>
-
+<h1 id="Some-more-drawing">Some more drawing<a class="anchor-link" href="#Some-more-drawing">&#182;</a></h1><h2 id="Repeating">Repeating<a class="anchor-link" href="#Repeating">&#182;</a></h2>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">turtle</span> <span class="c1">#importing library</span>
-<span class="n">t</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">Pen</span><span class="p">()</span> <span class="c1">#creating a new pen (called turtle in this jargon)</span>
-<span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#turtle.painloop()</span>
-<span class="c1">#t.done()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">turtle</span><span class="o">.</span><span class="n">bye</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">turtle</span> <span class="c1">#importing library</span>
-<span class="n">t</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">Pen</span><span class="p">()</span> <span class="c1">#creating a new pen (called turtle in this jargon)</span>
-<span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
-<span class="n">turtle</span><span class="o">.</span><span class="n">mainloop</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Saving-drawing-as-an-image">Saving drawing as an image<a class="anchor-link" href="#Saving-drawing-as-an-image">&#182;</a></h3><h4 id="eps-output"><code>eps</code>-output<a class="anchor-link" href="#eps-output">&#182;</a></h4><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tkinter</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c1">#library used here to save the file</span>
-<span class="n">ts</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">getscreen</span><span class="p">()</span> <span class="c1">#ts gets the screen with drawing</span>
-<span class="n">ts</span><span class="o">.</span><span class="n">getcanvas</span><span class="p">()</span><span class="o">.</span><span class="n">postscript</span><span class="p">(</span><span class="n">file</span> <span class="o">=</span> <span class="s1">&#39;arrow.eps&#39;</span><span class="p">)</span> <span class="c1">#creating eps-file</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">tkinter</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c1">#library used here to save the file</span>
-<span class="kn">import</span> <span class="nn">turtle</span> <span class="c1">#importing library</span>
-<span class="n">t</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">Pen</span><span class="p">()</span> <span class="c1">#creating a new pen (called turtle in this jargon)</span>
-<span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
-<span class="n">ts</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">getscreen</span><span class="p">()</span>
-<span class="n">ts</span><span class="o">.</span><span class="n">getcanvas</span><span class="p">()</span><span class="o">.</span><span class="n">postscript</span><span class="p">(</span><span class="n">file</span> <span class="o">=</span> <span class="s1">'arrow.eps'</span><span class="p">)</span>
-<span class="n">turtle</span><span class="o">.</span><span class="n">mainloop</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="eps-to-jpg">eps to jpg<a class="anchor-link" href="#eps-to-jpg">&#182;</a></h4><ul>
-<li>there are many ways to do</li>
-<li>I used <code>ghostscript</code> installed on my computer. It is unrelated with Python.</li>
-<li>!<code>command</code> runs the shell <code>command</code> within the cell</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span><span class="s2">"c:/Program Files/gs/gs9.27/bin/gswin64c.exe"</span><span class="w"> </span>-sDEVICE<span class="o">=</span>jpeg<span class="w"> </span>-dJPEGQ<span class="o">=</span><span class="m">100</span><span class="w"> </span>-dNOPAUSE<span class="w"> </span>-dBATCH<span class="w"> </span>-dSAFER<span class="w"> </span>-r300<span class="w"> </span>-sOutputFile<span class="o">=</span>arrow.jpg<span class="w"> </span>arrow.eps
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#controling the image size with -g</span>
-<span class="o">!</span><span class="s2">"c:/Program Files/gs/gs9.27/bin/gswin64c.exe"</span><span class="w"> </span>-sDEVICE<span class="o">=</span>jpeg<span class="w"> </span>-g50x30<span class="w"> </span>-dNOPAUSE<span class="w"> </span>-dBATCH<span class="w"> </span>-dSAFER<span class="w"> </span>-r300<span class="w"> </span>-sOutputFile<span class="o">=</span>arrow.jpg<span class="w"> </span>arrow.eps
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><code>&lt;img src="arrow.jpg" alt="Drawing" style="width: 100px;"/&gt;</code> displays our drawing
-<img src="arrow.jpg" alt="Drawing" style="width: 300px; height: 100px;"/></p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Simple-figures">Simple figures<a class="anchor-link" href="#Simple-figures">&#182;</a></h2><h3 id="Square">Square<a class="anchor-link" href="#Square">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#import turtle</span>
-<span class="c1">#t = turtle.Pen()</span>
-<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
-    <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
-    <span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span> <span class="c1">#turn 90 degree left</span>
-<span class="c1">#turtle.mainloop()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Loops</strong></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14906,11 +14606,11 @@ in the last line of the code. Then the window with drawing is clickable. In part
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <details>
-  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Write the code that draws an equilateral polygon with $6$ sides.
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Write the code that draws an equilateral polygon with $8$ sides.
   </summary>
 
   <code>
-n = 6
+n = 8
 for _ in range(n):
     t.forward(120)
     t.left(360/n) 
@@ -14927,99 +14627,12 @@ for _ in range(n):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="A-bit-more-complicated-figures">A bit more complicated figures<a class="anchor-link" href="#A-bit-more-complicated-figures">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<details>
-  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Draw<br><img src="snake.jpg" alt="Drawing" style="float:right;width: 250px;margin:-40px 150px -20px 0px;"/>
-  </summary>
-
-  <code>
-l_big = 100
-l_sml = 30
-for _ in range(3):
-    t.left(90)
-    t.forward(l_big)
-    t.right(90)
-    t.forward(l_sml)
-    t.right(90)
-    t.forward(l_big)
-    t.left(90)
-    t.forward(l_sml)
-  </code>
-
-  __Saving the code to jpg__ I recommend to crop the figure with a graphical application
-
-  <code>
-from tkinter import *  #library used here to save the file
-ts = turtle.getscreen()
-ts.getcanvas().postscript(file = 'snake.eps')
-    !"c:/Program Files/gs/gs9.27/bin/gswin64c.exe" -sDEVICE=jpeg -dJPEGQ=100 -dNOPAUSE -dBATCH -dSAFER -r300 -sOutputFile=snake.jpg snake.eps
-  </code>
-
-</details>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<details>
-  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Draw<img src="two_squares.jpg" alt="Drawing" style="float:right;width: 250px;margin:-50px 150px -20px 0px;"/>
-  </summary>
-
-  <code>
-for _ in range(4):
-    t.forward(120)
-    t.right(90) #turn 90 degree right
-for _ in range(4):
-    t.left(90) #turn 90 degree left
-    t.forward(120)
-  </code>
-
-</details>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<details>
-  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Draw two squares with sides of 50 and 100 as in the sketch<br><img src="two_squares_with_single_corner.png" alt="Drawing" style="width: 150px;"/>
-  </summary>
-
-  <li>Do it yourself</li>
-
-</details>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Moving without drawing</strong></p>
+<p><strong>Generalization</strong></p>
+<p>Let's make an equilateral polygon, where the number of sides is defined by a user.</p>
+<p>Commands:</p>
 <ul>
-<li><code>penup()</code> and <code>pendown()</code></li>
+<li><code>input()</code> : for input</li>
+<li><code>eval()</code> : to transform the input into the numerical value</li>
 </ul>
 
 </div>
@@ -15030,17 +14643,128 @@ for _ in range(4):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#two separate segments</span>
-<span class="c1">#import turtle</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">turtle</span>
 <span class="n">t</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">Pen</span><span class="p">()</span>
-<span class="n">t</span><span class="o">.</span><span class="n">fd</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="nb">eval</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"type the number of sides "</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">80</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">360</span><span class="o">/</span><span class="n">n</span><span class="p">)</span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>type the number of sides 8
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<details>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>How can one imitate a circle
+  </summary>
+
+  Draw an equilateral polygon with a large number of sides
+
+</details>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Colors">Colors<a class="anchor-link" href="#Colors">&#182;</a></h2><ul>
+<li><code>turtle.bgcolor()</code> for background color</li>
+<li><code>t.color()</code> : for the pen color</li>
+<li><code>t.begin_fill()</code> ... <code>t.end_fill()</code> : to fill in</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">speed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">100</span>
 <span class="n">t</span><span class="o">.</span><span class="n">pu</span><span class="p">()</span>
-<span class="n">t</span><span class="o">.</span><span class="n">fd</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">setpos</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">150</span><span class="p">)</span>
 <span class="n">t</span><span class="o">.</span><span class="n">pd</span><span class="p">()</span>
-<span class="n">t</span><span class="o">.</span><span class="n">fd</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">color</span><span class="p">(</span><span class="s1">'blue'</span><span class="p">,</span> <span class="s1">'yellow'</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">begin_fill</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">360</span><span class="o">/</span><span class="n">n</span><span class="p">)</span> 
+<span class="n">t</span><span class="o">.</span><span class="n">end_fill</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15053,93 +14777,11 @@ for _ in range(4):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<details>
-  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Draw the cross as in the sketch<br><img src="cross.png" alt="Drawing" style="width: 150px;"/>
-  </summary>
-
-  <li>Do it yourself</li>
-
-</details>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<details>
-  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Draw a spiral as in the sketch<br><img src="spiral.jpg" alt="Drawing" style="width: 150px;"/>
-  </summary>
-
-  <li>Do it yourself</li>
-
-</details>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Example of a spiral</strong></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#import turtle</span>
-<span class="c1">#t = turtle.Pen()</span>
-<span class="n">t</span><span class="o">.</span><span class="n">speed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#to control the speed of the turtle: 0 - very fast; then from 1 to 15 increasing the speed</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">400</span><span class="p">):</span>
-    <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">91</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#do not forget to reset the picture if you do not use mainloop()</span>
+<span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15155,10 +14797,17 @@ for _ in range(4):
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <details>
-  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Draw a man as in the sketch<br><img src="man.png" alt="Drawing" style="width: 200px;"/>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span><span>Draw the following figure with 18 angles<img src="18angle.jpg" alt="Drawing" style="float:right;width: 200px;margin:-5px 150px -10px 0px;"/></span>
   </summary>
 
-  <li>Do it yourself</li>
+  <code>
+turtle.bgcolor('white')
+t.color('blue', 'yellow')
+t.begin_fill()
+for i in range(18):
+    t.forward(150)
+    t.left(100)
+t.end_fill()  </code>
 
 </details>
 </div>
@@ -15171,7 +14820,8 @@ for _ in range(4):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Changing the position and "Hello World!"</strong></p>
+<blockquote><p>Mind the non-colored areas within the figure</p>
+</blockquote>
 
 </div>
 </div>
@@ -15181,16 +14831,113 @@ for _ in range(4):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
-    <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#used to save the above figure</span>
+<span class="kn">from</span> <span class="nn">tkinter</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c1">#library used here to save the file</span>
+<span class="k">def</span> <span class="nf">convert_screen2eps_and_jpg</span><span class="p">(</span><span class="n">fname</span><span class="p">):</span>
+    <span class="n">turtle</span><span class="o">.</span><span class="n">getscreen</span><span class="p">()</span><span class="o">.</span><span class="n">getcanvas</span><span class="p">()</span><span class="o">.</span><span class="n">postscript</span><span class="p">(</span><span class="n">file</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">fname</span><span class="si">}</span><span class="s1">.eps'</span><span class="p">)</span>
+    <span class="o">!</span><span class="s2">"c:/Program Files/gs/gs9.27/bin/gswin64c.exe"</span><span class="w"> </span>-sDEVICE<span class="o">=</span>jpeg<span class="w"> </span>-dJPEGQ<span class="o">=</span><span class="m">100</span><span class="w"> </span>-dNOPAUSE<span class="w"> </span>-dBATCH<span class="w"> </span>-dSAFER<span class="w"> </span>-r300<span class="w"> </span>-sOutputFile<span class="o">={</span>fname<span class="o">}</span>.jpg<span class="w"> </span><span class="o">{</span>fname<span class="o">}</span>.eps
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fname</span> <span class="o">=</span> <span class="s1">'18angle'</span>
+<span class="n">convert_screen2eps_and_jpg</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>GPL Ghostscript 9.27 (2019-04-04)
+Copyright (C) 2018 Artifex Software, Inc.  All rights reserved.
+This software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:
+see the file COPYING for details.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Examples-of-commands-affecting-the-properties-of-the-image">Examples of commands affecting the properties of the image<a class="anchor-link" href="#Examples-of-commands-affecting-the-properties-of-the-image">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">turtle</span><span class="o">.</span><span class="n">getscreen</span><span class="p">()</span><span class="o">.</span><span class="n">bgcolor</span><span class="p">(</span><span class="s2">"orange"</span><span class="p">)</span> <span class="c1"># changing background</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="s2">"purple"</span><span class="p">)</span> <span class="c1"># pen color</span>
+<span class="n">t</span><span class="o">.</span><span class="n">fillcolor</span><span class="p">(</span><span class="s2">"pink"</span><span class="p">)</span> <span class="c1"># fill color</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pensize</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1"># pen size</span>
+<span class="n">t</span><span class="o">.</span><span class="n">begin_fill</span><span class="p">()</span><span class="c1"># starting filling</span>
+<span class="n">t</span><span class="o">.</span><span class="n">circle</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span> <span class="c1">#circle</span>
+<span class="n">t</span><span class="o">.</span><span class="n">end_fill</span><span class="p">()</span> <span class="c1"># ending filling</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="s1">'green'</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">fillcolor</span><span class="p">(</span><span class="s1">'yellow'</span><span class="p">)</span>
+<span class="n">sidelng</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">t</span><span class="o">.</span><span class="n">begin_fill</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="n">sidelng</span><span class="p">)</span>
     <span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="n">t</span><span class="o">.</span><span class="n">penup</span><span class="p">()</span>
-<span class="n">t</span><span class="o">.</span><span class="n">setpos</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">)</span>
-<span class="n">t</span><span class="o">.</span><span class="n">pendown</span><span class="p">()</span>
-<span class="n">t</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">,</span> <span class="n">font</span><span class="o">=</span><span class="p">(</span><span class="s2">"Arial"</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="s2">"normal"</span><span class="p">))</span>
+<span class="n">t</span><span class="o">.</span><span class="n">end_fill</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15203,7 +14950,7 @@ for _ in range(4):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
@@ -15221,7 +14968,20 @@ for _ in range(4):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Example-of-a-project-part-with-tkinter">Example of a project part with <code>tkinter</code><a class="anchor-link" href="#Example-of-a-project-part-with-tkinter">&#182;</a></h2>
+<details>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span><span>Draw a square with green contour and yellow filling. Change the default side width.</span>
+  </summary>
+
+  <code>
+t.pencolor('green')
+t.fillcolor('yellow')
+sidelng = 100
+t.begin_fill()
+for _ in range(4):
+    t.forward(sidelng)
+    t.left(90)
+t.end_fill()  </code>
+</details>
 </div>
 </div>
 </div>
@@ -15232,31 +14992,14 @@ for _ in range(4):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Labyrinth">Labyrinth<a class="anchor-link" href="#Labyrinth">&#182;</a></h3><ul>
-<li>Goal: a player must reach the marked place of the labyrinth</li>
-<li>Done: a simple labyrinth with the description below</li>
-<li>To do: <ul>
-<li>more advanced labyrinth</li>
-<li>compute the time required for players to reach the goal</li>
-<li>leader board
-<strong>The current code:</strong></li>
-</ul>
-</li>
-</ul>
-<p>The labyrinth is written in a single cell (as in the first cell)</p>
-<p>Required</p>
-<ul>
-<li>lattice size</li>
-<li>inner walls</li>
-<li>coordinates of the beginning and the end of the route </li>
-</ul>
-<p>To launch the code, one has to run two cells:</p>
-<ul>
-<li>cell with the labyrinth</li>
-<li>the last cell</li>
-</ul>
-<p><strong>The task:</strong> to move the right ball to the gray square by using the arrows</p>
-<p><strong>Bonus:</strong> the ball changes color for a moment when kicking the wall</p>
+<p><strong>Examples of colors</strong></p>
+<div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># red</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># green</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span> <span class="c1"># blue</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># black</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span> <span class="c1"># white</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span> <span class="c1"># c \in [0, 255], various types of gray</span>
+</pre></div>
 
 </div>
 </div>
@@ -15269,102 +15012,16 @@ for _ in range(4):
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#labirint 3; the same as 2, but with another (more complicated) finish</span>
-<span class="n">n_cells_row</span> <span class="o">=</span> <span class="mi">20</span> <span class="c1"># n_cells_row x n_cells_clmn lattice</span>
-<span class="n">n_cells_clmn</span> <span class="o">=</span> <span class="mi">25</span>
-
-<span class="k">def</span> <span class="nf">set_labirint</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">n_cells_row</span><span class="p">,</span> <span class="n">n_cells_clmn</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">clr_wall</span><span class="p">,</span> <span class="n">wd_wall</span>
-
-    <span class="c1">#start</span>
-    <span class="n">i_start</span> <span class="o">=</span> <span class="mi">2</span>
-    <span class="n">j_start</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">i_fin</span> <span class="o">=</span> <span class="mi">19</span>
-    <span class="n">j_fin</span> <span class="o">=</span> <span class="mi">24</span>
-
-    <span class="c1">#draw inner walls</span>
-    <span class="c1">#horizontal: label the cells to which the wall is at the left</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#row</span>
-    <span class="n">tmp</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_row</span><span class="p">):</span>
-        <span class="n">tmp</span><span class="o">.</span><span class="n">append</span><span class="p">([])</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">20</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">22</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">22</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">11</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">12</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">13</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">22</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">14</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">16</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">17</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">18</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">22</span><span class="p">]</span>
-    <span class="n">tmp</span><span class="p">[</span><span class="mi">19</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">21</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_row</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tmp</span><span class="p">[</span><span class="n">i</span><span class="p">])):</span>
-            <span class="n">j</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">]</span>
-            <span class="k">if</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n_cells_clmn</span><span class="p">:</span>
-                <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-                <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-                <span class="n">coord_tmp</span> <span class="o">=</span> <span class="n">ind2center</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-                <span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> \
-                    <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> \
-                    <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_wall</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">wd_wall</span><span class="p">)</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">'Cell (</span><span class="si">{:d}</span><span class="s1">, </span><span class="si">{:d}</span><span class="s1">) does not have the left boundary'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">))</span>
-
-    <span class="c1">#vertial: label the cells to which the wall is at the top</span>
-    <span class="n">wall_vert</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_clmn</span><span class="p">):</span>
-        <span class="n">wall_vert</span><span class="o">.</span><span class="n">append</span><span class="p">([])</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">18</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">11</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">18</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">12</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">13</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">14</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">16</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">17</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">18</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">19</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">20</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">18</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">21</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">22</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">23</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
-    <span class="n">wall_vert</span><span class="p">[</span><span class="mi">24</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">]</span>
-
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_clmn</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">wall_vert</span><span class="p">[</span><span class="n">j</span><span class="p">])):</span>
-            <span class="n">i</span> <span class="o">=</span> <span class="n">wall_vert</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">k</span><span class="p">]</span>
-            <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n_cells_row</span><span class="p">:</span>
-                <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-                <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-                <span class="n">coord_tmp</span> <span class="o">=</span> <span class="n">ind2center</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-                <span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> \
-                    <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> \
-                    <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_wall</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">wd_wall</span><span class="p">)</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">'Cell (</span><span class="si">{:d}</span><span class="s1">, </span><span class="si">{:d}</span><span class="s1">) does not have the upper boundary'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">))</span>
-
-    <span class="k">return</span> <span class="n">cell</span><span class="p">,</span> <span class="n">i_start</span><span class="p">,</span> <span class="n">j_start</span><span class="p">,</span> <span class="n">i_fin</span><span class="p">,</span> <span class="n">j_fin</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">turtle</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">turtle</span><span class="o">.</span><span class="n">Pen</span><span class="p">()</span>
+<span class="n">t</span><span class="o">.</span><span class="n">speed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">turtle</span><span class="o">.</span><span class="n">bgcolor</span><span class="p">(</span><span class="s2">"gray"</span><span class="p">)</span>
+<span class="n">side</span> <span class="o">=</span> <span class="nb">eval</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"type the number of sides &lt;= 7 "</span><span class="p">))</span>
+<span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"red"</span><span class="p">,</span> <span class="s2">"orange"</span><span class="p">,</span> <span class="s2">"yellow"</span><span class="p">,</span> <span class="s2">"purple"</span><span class="p">,</span> <span class="s2">"green"</span><span class="p">,</span> <span class="s2">"magenta"</span><span class="p">,</span> <span class="s2">"blue"</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">200</span><span class="p">):</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="n">colors</span><span class="p">[</span><span class="n">i</span><span class="o">%</span><span class="k">side</span>])
+    <span class="n">t</span><span class="o">.</span><span class="n">circle</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">360</span><span class="o">/</span><span class="n">side</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15377,168 +15034,272 @@ for _ in range(4):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">tkinter</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="n">root</span> <span class="o">=</span> <span class="n">Tk</span><span class="p">()</span>
-<span class="n">side</span> <span class="o">=</span> <span class="mi">20</span>
-<span class="n">offset</span> <span class="o">=</span> <span class="n">side</span> <span class="c1">#offset from all boundaries of the canvas</span>
-<span class="n">wd_lattice</span> <span class="o">=</span> <span class="n">n_cells_clmn</span> <span class="o">*</span> <span class="n">side</span>
-<span class="n">ht_lattice</span> <span class="o">=</span> <span class="n">n_cells_row</span> <span class="o">*</span> <span class="n">side</span>
-<span class="n">wd_canvas</span> <span class="o">=</span> <span class="n">wd_lattice</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">offset</span>
-<span class="n">ht_canvas</span> <span class="o">=</span> <span class="n">ht_lattice</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">offset</span>
-<span class="n">clr</span> <span class="o">=</span> <span class="s1">'red'</span>
-<span class="n">clr_instant</span> <span class="o">=</span> <span class="s1">'green'</span>
-<span class="n">clr_wall</span> <span class="o">=</span> <span class="s1">'blue'</span>
-<span class="n">shft</span> <span class="o">=</span> <span class="n">side</span>
-<span class="n">wd_wall</span> <span class="o">=</span> <span class="mi">2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+</pre></div>
 
-<span class="k">def</span> <span class="nf">ind2center</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">):</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">offset</span> <span class="o">+</span> <span class="n">j</span><span class="o">*</span><span class="n">side</span> <span class="o">+</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">side</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="n">offset</span> <span class="o">+</span> <span class="n">i</span><span class="o">*</span><span class="n">side</span> <span class="o">+</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">side</span>
-    <span class="k">return</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+     </div>
+</div>
+</div>
+</div>
 
-<span class="k">def</span> <span class="nf">center2ind</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">):</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="nb">int</span><span class="p">((</span><span class="n">y</span> <span class="o">-</span> <span class="n">offset</span><span class="p">)</span> <span class="o">/</span> <span class="n">side</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span>
-    <span class="n">j</span> <span class="o">=</span> <span class="nb">int</span><span class="p">((</span><span class="n">x</span> <span class="o">-</span> <span class="n">offset</span><span class="p">)</span> <span class="o">/</span> <span class="n">side</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<details>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span><span>Draw the following target<img src="target.png" alt="Drawing" style="float:right;width: 200px;margin:-10px 50px -5px 0px;"/></span>
+  </summary>
 
-<span class="n">c</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">wd_canvas</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="n">ht_canvas</span><span class="p">,</span> <span class="n">bg</span> <span class="o">=</span> <span class="s2">"yellow"</span><span class="p">)</span>
-<span class="n">c</span><span class="o">.</span><span class="n">focus_set</span><span class="p">()</span>
-<span class="n">c</span><span class="o">.</span><span class="n">pack</span><span class="p">()</span>
+  <code>
+turtle.bgcolor('white')
+clr = ['red', 'green']
+t.speed(0)
+for i in range(10):
+    t.color(clr[i%2])
+    t.pu()
+    t.rt(90)
+    t.fd(100-i*10)
+    t.lt(90)
+    t.pd()
+    t.begin_fill()
+    t.circle(100-i*10)
+    t.end_fill()
+    t.pu()
+    t.lt(90)
+    t.fd(100-i*10)
+    t.rt(90)
+    t.pd()
+  </code>
 
-<span class="c1">#create the list of cells;</span>
-<span class="c1">#cell[i][j] is the list of five quantities:</span>
-<span class="c1"># is the wall right, above, left, below; is the cell final</span>
-<span class="n">cell</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_row</span><span class="p">):</span>
-    <span class="n">cell</span><span class="o">.</span><span class="n">append</span><span class="p">([])</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_clmn</span><span class="p">):</span>
-        <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">([])</span>
-        <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+</details>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<details>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span><span>Draw the following 4 segments<br>where colors smoothly vary from black to white<img src="4segments.jpg" alt="Drawing" style="float:right;width: 300px;margin:-15px 50px -50px 0px;"/></span>
+  </summary>
 
-<span class="c1">#draw the lattice</span>
-<span class="k">def</span> <span class="nf">draw_lattice</span><span class="p">(</span><span class="n">n_cells_row</span><span class="p">,</span> <span class="n">n_cells_clmn</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> \
-                 <span class="n">wd_canvas</span><span class="p">,</span> <span class="n">ht_canvas</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_row</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_clmn</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-            <span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">offset</span> <span class="o">+</span> <span class="n">j</span><span class="o">*</span><span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> \
-                      <span class="n">offset</span> <span class="o">+</span> <span class="n">j</span><span class="o">*</span><span class="n">side</span><span class="p">,</span> <span class="n">ht_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="s1">'gray'</span><span class="p">)</span>
-            <span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">offset</span><span class="p">,</span> <span class="n">offset</span> <span class="o">+</span> <span class="n">i</span><span class="o">*</span><span class="n">side</span><span class="p">,</span> \
-                      <span class="n">wd_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> <span class="n">offset</span> <span class="o">+</span> <span class="n">i</span><span class="o">*</span><span class="n">side</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="s1">'gray'</span><span class="p">)</span>
+  <code>
+#four arrow with changing colors from black to white
+turtle.colormode(1)
+t.pu()
+t.fd(-200)
+t.pd()
+for i in range(4):
+    for n in range(10):
+        c = n*28/255
+        t.pencolor(c,c,c)
+        t.fd(10)
+  </code>
 
-<span class="n">draw_lattice</span><span class="p">(</span><span class="n">n_cells_row</span><span class="p">,</span> <span class="n">n_cells_clmn</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">wd_canvas</span><span class="p">,</span> <span class="n">ht_canvas</span><span class="p">)</span>
+</details>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>Let's say a word about functions</strong></p>
 
-<span class="c1">#draw walls: outer walls</span>
-<span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">offset</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">ht_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> \
-              <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_wall</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">wd_wall</span><span class="p">)</span>
-<span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">wd_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">wd_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> \
-              <span class="n">ht_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_wall</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">wd_wall</span><span class="p">)</span>
-<span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">offset</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">wd_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> \
-              <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_wall</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">wd_wall</span><span class="p">)</span>
-<span class="n">c</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">offset</span><span class="p">,</span> <span class="n">ht_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> <span class="n">wd_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> \
-              <span class="n">ht_canvas</span> <span class="o">-</span> <span class="n">offset</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_wall</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">wd_wall</span><span class="p">)</span>
-<span class="c1">#write the outer walls to cells</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_row</span><span class="p">):</span>
-    <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#left row; the wall is at the left</span>
-    <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#right row; the wall is at the right</span>
-<span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cells_clmn</span><span class="p">):</span>
-    <span class="n">cell</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#top column; the wall above</span>
-    <span class="n">cell</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#bottom column; the wall is below</span>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">myecho</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<span class="n">myecho</span><span class="p">(</span><span class="s1">'Hello world'</span><span class="p">)</span>
+<span class="n">myecho</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
 
-<span class="n">c</span><span class="o">.</span><span class="n">create_text</span><span class="p">(</span><span class="n">offset</span><span class="p">,</span> <span class="n">offset</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">text</span> <span class="o">=</span> \
-    <span class="s1">'SSh'</span><span class="p">,</span> <span class="n">font</span><span class="o">=</span><span class="p">(</span><span class="s1">'Arial'</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">'bold'</span><span class="p">))</span>
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
 
     
-<span class="n">cell</span><span class="p">,</span> <span class="n">i_start</span><span class="p">,</span> <span class="n">j_start</span><span class="p">,</span> <span class="n">i_fin</span><span class="p">,</span> <span class="n">j_fin</span> <span class="o">=</span> <span class="n">set_labirint</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">n_cells_row</span><span class="p">,</span> <span class="n">n_cells_clmn</span><span class="p">)</span>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
-<span class="c1">#draw ball in (i_start, j_start)</span>
-<span class="n">coord_tmp</span> <span class="o">=</span> <span class="n">ind2center</span><span class="p">(</span><span class="n">i_start</span><span class="p">,</span> <span class="n">j_start</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-<span class="n">ball_scale</span> <span class="o">=</span> <span class="mf">0.7</span>
-<span class="n">x_nw</span> <span class="o">=</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">ball_scale</span><span class="o">*</span><span class="n">side</span><span class="o">/</span><span class="mi">2</span> 
-<span class="n">y_nw</span> <span class="o">=</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">ball_scale</span><span class="o">*</span><span class="n">side</span><span class="o">/</span><span class="mi">2</span> 
-<span class="n">x_se</span> <span class="o">=</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">ball_scale</span><span class="o">*</span><span class="n">side</span><span class="o">/</span><span class="mi">2</span> 
-<span class="n">y_se</span> <span class="o">=</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">ball_scale</span><span class="o">*</span><span class="n">side</span><span class="o">/</span><span class="mi">2</span> 
-<span class="n">ball</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">x_nw</span><span class="p">,</span> <span class="n">y_nw</span><span class="p">,</span> <span class="n">x_se</span><span class="p">,</span> <span class="n">y_se</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr</span><span class="p">)</span>
 
-<span class="c1">#Mark the final cell</span>
-<span class="n">coord_tmp</span> <span class="o">=</span> <span class="n">ind2center</span><span class="p">(</span><span class="n">i_fin</span><span class="p">,</span> <span class="n">j_fin</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-<span class="n">c</span><span class="o">.</span><span class="n">create_rectangle</span><span class="p">(</span><span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> \
-        <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">coord_tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">side</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="s1">'grey'</span><span class="p">)</span>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Hello world
+5
+</pre>
+</div>
+</div>
 
-<span class="k">def</span> <span class="nf">clr_change</span><span class="p">():</span>
-    <span class="k">global</span> <span class="n">ball</span>
-    <span class="k">global</span> <span class="n">clr</span>
-    <span class="n">c</span><span class="o">.</span><span class="n">itemconfig</span><span class="p">(</span><span class="n">ball</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr</span><span class="p">)</span>
+</div>
 
-<span class="k">def</span> <span class="nf">checkfinish</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="n">i_fin</span><span class="p">,</span> <span class="n">j_fin</span><span class="p">):</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">create_text</span><span class="p">(</span><span class="n">wd_canvas</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">ht_canvas</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">text</span> <span class="o">=</span> \
-            <span class="s1">'Hurrah! You won'</span><span class="p">,</span> <span class="n">font</span><span class="o">=</span><span class="p">(</span><span class="s1">'Arial'</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="s1">'bold'</span><span class="p">))</span>
-        <span class="n">root</span><span class="o">.</span><span class="n">focus_set</span><span class="p">()</span>
-    
-<span class="k">def</span> <span class="nf">moveleft</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">shft</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">clr_instant</span>
-    <span class="n">coord_new</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">coords</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
-    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">center2ind</span><span class="p">((</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span>\
-            <span class="p">(</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">itemconfig</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_instant</span><span class="p">)</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">after</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="n">clr_change</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="o">-</span><span class="n">shft</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-        <span class="n">j</span> <span class="o">=</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="n">checkfinish</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+</div>
 
-<span class="k">def</span> <span class="nf">moveup</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">shft</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">clr_instant</span>
-    <span class="n">coord_new</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">coords</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
-    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">center2ind</span><span class="p">((</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span>\
-            <span class="p">(</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">1</span><span class="p">]:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">itemconfig</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_instant</span><span class="p">)</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">after</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="n">clr_change</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="n">shft</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="n">checkfinish</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">sidelng</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="n">sidelng</span><span class="p">)</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+</pre></div>
 
-<span class="k">def</span> <span class="nf">moveright</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">shft</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">clr_instant</span>
-    <span class="k">global</span> <span class="n">n_cells_row</span>
-    <span class="n">coord_new</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">coords</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
-    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">center2ind</span><span class="p">((</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span>\
-            <span class="p">(</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">2</span><span class="p">]:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">itemconfig</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_instant</span><span class="p">)</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">after</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="n">clr_change</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">shft</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-        <span class="n">j</span> <span class="o">=</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span>
-        <span class="n">checkfinish</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+     </div>
+</div>
+</div>
+</div>
 
-<span class="k">def</span> <span class="nf">movedown</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">shft</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">clr_instant</span>
-    <span class="k">global</span> <span class="n">n_cells_row</span>
-    <span class="n">coord_new</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">coords</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
-    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">center2ind</span><span class="p">((</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span>\
-            <span class="p">(</span><span class="n">coord_new</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">coord_new</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">offset</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">cell</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">][</span><span class="mi">3</span><span class="p">]:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">itemconfig</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">clr_instant</span><span class="p">)</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">after</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="n">clr_change</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">shft</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span><span class="mi">1</span>
-        <span class="n">checkfinish</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">square</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
 
-<span class="n">c</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="s1">'&lt;Up&gt;'</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">event</span><span class="p">:</span> <span class="n">moveup</span><span class="p">(</span><span class="n">ball</span><span class="p">,</span> <span class="n">shft</span><span class="p">))</span>
-<span class="n">c</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="s1">'&lt;Down&gt;'</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">event</span><span class="p">:</span> <span class="n">movedown</span><span class="p">(</span><span class="n">ball</span><span class="p">,</span> <span class="n">shft</span><span class="p">))</span>
-<span class="n">c</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="s1">'&lt;Left&gt;'</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">event</span><span class="p">:</span> <span class="n">moveleft</span><span class="p">(</span><span class="n">ball</span><span class="p">,</span> <span class="n">shft</span><span class="p">))</span>
-<span class="n">c</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="s1">'&lt;Right&gt;'</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">event</span><span class="p">:</span> <span class="n">moveright</span><span class="p">(</span><span class="n">ball</span><span class="p">,</span> <span class="n">shft</span><span class="p">))</span>
-<span class="n">coord_new</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">coords</span><span class="p">(</span><span class="n">ball</span><span class="p">)</span>
+     </div>
+</div>
+</div>
+</div>
 
-<span class="n">mainloop</span><span class="p">()</span>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<details>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span>Draw two squares from the previous class,<br>but using function <code>square</code> that draws a square<br>and <code>setpos()</code>command <img src="two_squares.jpg" alt="Drawing" style="float:right;width: 250px;margin:-50px 10px -5px 0px;"/>
+  </summary>
+
+  <code>
+lng = 50
+t.penup()
+t.setpos(0, -lng)
+t.pendown()
+square(lng)
+t.penup()
+t.setpos(-lng, 0)
+t.pendown()
+square(lng)
+  </code>
+
+</details>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<blockquote><p>command <code>seth(deg)</code> set the direction to what the turtle looks at; for example, <code>seth(0)</code> makes the turtle to look horizontally to the right</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<details>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span><span>Draw a chess board<img src="chess_board.png" alt="Drawing" style="float:right;width: 200px;margin:-10px 50px -5px 0px;"/></span>
+  </summary>
+
+  <code>
+  </code>
+
+</details>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<details>
+  <summary><span style = "font-weight:bold; color:blue;"><u><li>Question: </li></u></span><span>Play with colors and draw<img src="smoothing_colors.png" alt="Drawing" style="float:right;width: 200px;margin:-10px 50px -5px 0px;"/></span>
+  </summary>
+
+  <li>The task is not compulsory. This is a challenge for you</li>
+  <li>The color is changed in a loop by the command<br><code>pencolor(i / 2, 250 - i / 2, 250 - i / 2)</code></li>
+
+</details>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">turtle</span><span class="o">.</span><span class="n">bye</span><span class="p">()</span>
 </pre></div>
 
      </div>
