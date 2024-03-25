@@ -1,0 +1,64 @@
+almond
+antique white
+aquamarine
+azure
+beige
+bisque
+black
+blue
+brown
+cadet blue
+chartreuse
+chocolate
+coral
+cornflower
+cornsilk
+cyan
+dodger blue
+firebrick
+forest green
+gold
+goldenrod
+gray
+green
+honeydew
+hot pink
+ivory
+khaki
+lavender
+lemon
+lime green
+linen white
+magenta
+maroon
+midnight
+mint
+moccasin
+navy
+olive
+orange
+orchid
+pale green
+papaya
+peach
+pink
+plum
+purple
+red
+royal blue
+salmon
+sea green
+seashell
+sienna
+sky blue
+snow white
+spring green
+steel
+tan
+thistle
+turquoise
+violet
+wheat
+white
+yellow
+yellow green

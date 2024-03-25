@@ -1,0 +1,12 @@
+;redcode
+;name mult
+;strategy   multiplication demo: compute acc = x * y
+
+x       DAT #7            ; multiplicand
+y       DAT #6            ; multiplier
+acc     DAT #0            ; accumulator -- result goes here
+mult    ADD x, acc        ; add x to acc
+        SUB #1, y         ; subtract 1 from y
+        JMN mult, y       ; repeat if y is not 0
+        DAT #0            ; algorithm halts here
+        end mult

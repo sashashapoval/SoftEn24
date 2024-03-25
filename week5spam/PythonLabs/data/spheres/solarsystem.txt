@@ -1,0 +1,17 @@
+# Solar system data, downloaded from JPL, from ephemeris created for Jan 1, 1970
+# Format for each line:
+#   name, mass, posx, posy, posz, velx, vely, velz, dia, color
+# where mass is in kilograms; posx, posy, and posz are the 3d position vector (in meters)
+# and velx, vely, and velz is the 3D velocity vector (m/sec). The last two items are 
+# for the visualization -- radius (in pixels) and color for drawing the body.
+
+sun 1.9891E+30 0 0 0 0 0 0 10 #ffff00
+mercury 3.302E+23 3.83713E+10 2.877025E+10 -1.175808E+09 -38787.67 41093.05 6918.461 3 #ffcc66
+venus 4.8685E+24 -5.377313E+09 -1.085956E+11 -1.164748E+09 34741.48 -1865.747 -2031.506 5 #800080
+earth 5.9736E+24 -2.700743E+10 1.446007E+11 9686451 -29770.44 -5568.042 0.3961261 5 #0000ff
+mars 6.4185E+23 1.983825E+11 7.422924E+10 -3.334841E+09 -7557.626 24761.27 704.7457 4 #ff0000
+jupiter 1.89813E+27 -7.496502E+11 -3.201711E+11 1.811155E+10 4982.522 -11417.83 -64.66531 7 #ffffbf
+saturn 5.68319E+26 1.082806E+12 8.510841E+11 -5.793461E+10 -6487.118 7565.952 125.4422 6 #0080ff
+uranus 8.68103E+25 -2.724616E+12 -2.894003E+11 3.428801E+10 671.3469 -7099.093 -35.04028 5 #008080
+neptune 1.0241E+26 -2.328072E+12 -3.891086E+12 1.337436E+11 4633.961 -2767.423 -49.57268 5 #004080
+pluto 1.314E+22 -4.551135E+12 3.175277E+11 1.282177E+12 635.998 -5762.115 440.8821 2 #dddddd

@@ -1,0 +1,14 @@
+Hi John,
+
+I meant to ask you if you tried the revised cat command.  Were you able to
+do what you needed?
+
+Regarding your lab meetings... sure, I could come and give a brief
+description and answer any questions your group members might have.  My
+assistant, Erik, has just put up more information from Chris' slides
+onto the wiki that might be helpful.  It would be helpful to me if I
+knew in advance more specifically what kind of questions to address before
+coming - perhaps you can collect some at today's group meeting?
+
+Cheers,
+Rob

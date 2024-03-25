@@ -1,0 +1,8 @@
+;redcode
+;name threads
+;strategy launch imps to demonstrate how SPL works
+
+start   SPL imp
+        JMP start
+imp     MOV 0, 1
+        end start

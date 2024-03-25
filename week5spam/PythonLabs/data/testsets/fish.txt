@@ -1,0 +1,55 @@
+catfish
+albacore
+tuna
+bluefin
+yellowfin
+bluegill
+anchovy
+pike
+angelfish
+icefish
+black cod
+rock cod
+eel
+carp
+brook trout
+rainbow trout
+brown trout
+coho 
+salmon
+chinook
+sockeye
+sole
+steelhead
+sturgeon
+herring
+white shark
+sea bass
+black bass
+largemouth bass
+smelt
+zebrafish
+stickleback
+triggerfish
+bombay duck
+char
+tetra
+dory
+flounder
+minnow
+perch
+mackerel
+goldfish
+koi
+grouper
+grunion
+guppy
+halibut
+hammerhead shark
+tiger shark
+sand shark
+mahi mahi
+marlin
+piranha
+red snapper
+sardine

@@ -1,0 +1,16 @@
+# Letter frequencies for the Hawaiian alphabet
+# Source:  http://www.cryptogram.org/cdb/words/frequency.html
+
+'  0.068
+A  0.262
+E  0.072
+H  0.045
+I  0.084
+K  0.105
+L  0.044
+M  0.032
+N  0.083
+O  0.107
+P  0.030
+U  0.059
+W  0.009

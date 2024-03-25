@@ -1,0 +1,5 @@
+# Two body system:  a 3 kg (6.6 pound) watermelon and the earth.  The melon is
+# initially stationary on the the earth's surface.
+
+melon 3.0 0 6.371E6 0 0 0 0 5 pink
+earth 5.9736E+24 0 0 0 0 0 0 1000 darkgreen

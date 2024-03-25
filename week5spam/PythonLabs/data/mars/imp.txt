@@ -1,0 +1,6 @@
+;redcode
+;name Imp
+;author A. K. Dewdney
+;strategy   This program was presented in the first Corewar article.
+;assert 1
+  mov 0, 1

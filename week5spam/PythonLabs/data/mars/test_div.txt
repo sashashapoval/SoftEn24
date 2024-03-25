@@ -1,0 +1,13 @@
+;redcode
+;name div
+;strategy   division demo -- compute 20 / 9
+
+x       DAT #20
+y       DAT #9
+count   DAT #0              ; result goes here
+div     SUB y, x 
+        SLT #0, x
+        DAT #0              ; stop here when division done
+        ADD #1, count
+        JMP div
+        end div

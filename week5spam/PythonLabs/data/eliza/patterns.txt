@@ -1,0 +1,19 @@
+/i (eat|drink) (.*)/
+    "What do you like about $2?"
+    "Isn't $2 expensive?"
+/i am not (sad|unhappy|depressed|sick) about (.*)/
+    "Why not?"
+    "Well $2 sure makes me $1."
+/i am (happy|elated|glad|better)/
+    "How have I helped you to be $1?"
+    "Has your treatment made you $1?"
+/i am not (.*)/
+    "Is anybody $1?"
+    "Well I, for one, am $1."
+/i am (.*)/
+    "Not me, I $1."
+    "Do you believe it normal to be $1?"
+/am i (.*)/
+    "Do you believe you are $1?"
+    "Would you want to be $1?"
+    "You wish I would tell you you are $1?"

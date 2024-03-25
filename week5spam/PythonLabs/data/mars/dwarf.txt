@@ -1,0 +1,11 @@
+;redcode 
+;name Dwarf
+;author A. K. Dewdney
+;strategy Throw DAT bombs (as in "fetchez la vache") around memory, hitting every 4th memory cell.
+;strategy This program was presented in the first Corewar article.
+
+vache   DAT #0
+dwarf   ADD #4, vache
+        MOV vache, @vache
+        JMP dwarf
+        end dwarf

@@ -1,0 +1,26 @@
+ada
+applescript
+basic
+c
+c++
+cobol
+common lisp
+erlang
+euclid
+fortran
+fp
+forth
+haskell
+java
+javascript
+logo
+modula
+pascal
+perl
+php
+prolog
+python
+ruby
+scheme
+simula
+smalltalk

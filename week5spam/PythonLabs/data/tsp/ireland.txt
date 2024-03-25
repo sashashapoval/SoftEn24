@@ -1,0 +1,23 @@
+:map Ireland
+
+353  43 belfast
+ 80 331 cork
+299 190 dublin
+ 80 138 galway
+101 224 limerick
+
+:matrix driving distances (in kilometers) between cities
+
+belfast cork 425
+belfast dublin 167
+belfast galway 306
+belfast limerick 323
+
+cork dublin 257
+cork galway 209
+cork limerick 105
+
+dublin galway 219
+dublin limerick 198
+
+galway limerick 105

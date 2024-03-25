@@ -1,0 +1,68 @@
+:map Pac-10 conference
+
+ 91  92 uw
+145 113 wsu
+ 61 148 osu
+ 84 161 uo
+ 78 256 ucb
+ 60 278 lsju
+116 310 ucla
+100 328 usc
+193 337 asu
+197 369 ua
+
+:matrix driving distances (in minutes) between stadiums
+
+uw wsu 320
+uw osu 317
+uw uo 338
+uw ucb 863
+uw lsju 914
+uw ucla 1190
+uw usc 1190
+uw asu 1620
+uw ua 1800
+
+wsu osu 470
+wsu uo 492
+wsu ucb 1070
+wsu lsju 1123
+wsu ucla 1437
+wsu usc 1437
+wsu asu 1560
+wsu ua 1680
+
+osu uo 55
+osu ucb 572
+osu lsju 624
+osu ucla 898
+osu usc 899
+osu asu 1268
+osu ua 1379
+
+uo ucb 526
+uo lsju 578
+uo ucla 852
+uo usc 852
+uo asu 1222
+uo ua 1332
+
+ucb lsju 58
+ucb ucla 369
+ucb usc 371
+ucb asu 740
+ucb ua 857
+
+lsju ucla 370
+lsju usc 371
+lsju asu 740
+lsju ua 858
+
+ucla usc 16
+ucla asu 373
+ucla ua 483
+
+usc asu 375
+usc ua 486
+
+asu ua 122

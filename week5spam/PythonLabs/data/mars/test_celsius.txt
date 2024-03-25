@@ -1,0 +1,20 @@
+;redcode
+;name Celsius
+;strategy   cels = (fahr - 32) * 5 / 9
+
+fahr    DAT #80             ; input temperature
+cels    DAT #0              ; store result here
+ftmp    DAT #0              ; save fahr-32 here
+start   MOV fahr, ftmp      ; (1) subtract 32
+        SUB #32, ftmp
+mult    ADD ftmp, acc       ; (2) multiply by 5
+        SUB #1, count
+        JMN mult, count
+div     SUB #9, acc         ; (3) divide by 9
+        SLT #0, acc
+        DAT #0              ; stop here when division done
+        ADD #1, cels
+        JMP div
+acc     DAT #0              ; accumulator
+count   DAT #5              ; counter
+        end start

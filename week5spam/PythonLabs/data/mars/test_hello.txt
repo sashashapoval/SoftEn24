@@ -1,0 +1,8 @@
+; test_hello.txt -- a "hello, world" program for MARS
+; name Hello
+
+x       DAT #7
+y       DAT #4
+hello   ADD x, y      ; add the contents of x to y
+        DAT #0        ; a dat instruction halts the machine
+				end hello

@@ -1,0 +1,6 @@
+# A small 4-body system to demonstrate the simulator 
+
+a 1.4e18 50 70 0 0 1 0 10 #ff6666
+b 1.2e16 50 225 0 -1000 2 0 3 #ff6666
+c 2.1e16 175 -75 0 -1 -5 0 5 #ff6666
+d 4.5e16 300 -75 0 -5 2 0 6 #ff6666
