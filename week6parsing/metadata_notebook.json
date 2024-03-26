@@ -1,0 +1,32 @@
+{
+  "kernelspec": {
+    "name": "python3",
+    "display_name": "Python 3 (ipykernel)",
+    "language": "python"
+  },
+  "language_info": {
+    "name": "python",
+    "version": "3.9.18",
+    "mimetype": "text/x-python",
+    "codemirror_mode": {
+      "name": "ipython",
+      "version": 3
+    },
+    "pygments_lexer": "ipython3",
+    "nbconvert_exporter": "python",
+    "file_extension": ".py"
+  },
+  "toc": {
+    "nav_menu": {},
+    "number_sections": true,
+    "sideBar": true,
+    "skip_h1_title": false,
+    "base_numbering": 1,
+    "title_cell": "Table of Contents",
+    "title_sidebar": "Contents",
+    "toc_cell": false,
+    "toc_position": {},
+    "toc_section_display": true,
+    "toc_window_display": false
+  }
+}
